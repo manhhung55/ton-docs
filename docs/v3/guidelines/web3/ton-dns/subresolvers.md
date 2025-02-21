@@ -122,9 +122,9 @@ Some repeated parts are omitted.
 1. If there is zero byte at the beginning, it is skipped.
 2. It checks if the subdomain starts with `"ton\0"`. If so,
     1. it skips the first 32 bits (subdomain = `"resolve-contract\0"`)
-    2. `subdomain_sfx` value is set to `subdomain`, and the function reads the bytes until zero byte
+    2. `subdomain_sfx` value is set to `9, and the function reads the bytes until zero byte
     3. (subdomain = `"resolve-contract\0"`, subdomain_sfx = `""`)
-    4. Zero byte and subdomain_sfx are trimmed from the end of subdomain slice (subdomain = `"resolve-contract"`)
+    4. Zero byte and subdomain_sfx are trimmed from the end of subdomain slice `(subdomain = `"resolve-contract"`)
     5. Functions slice_hash and get_ton_dns_nft_address_by_index is used to convert domain name to the contract address. You can see them in [[Subresolvers#Appendix 1. Code of resolve-contract.ton|Appendix 1]].
 3. Otherwise, dnsresolve() checks if the subdomain starts with `"address\0"`. If so, it skips that prefix and reads base64 address.
 4. If provided subdomain for resolution did not match any of these prefixes, function indicates failure by returning `(0, null())` (zero bytes prefix resolved with no DNS entries).
