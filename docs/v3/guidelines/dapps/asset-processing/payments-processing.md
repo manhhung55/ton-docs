@@ -1,5 +1,5 @@
 
-import Button from '@site/src/components/button'
+import https://github.com/ton-blockchain/ton/issues/682Button from '@site/src/components/button'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
