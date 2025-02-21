@@ -23,7 +23,7 @@ This behavior pattern is well known and called 'Actor'.
 
 ### The lowest level: AccountChain
 
-A sequence of _transactions_ `Tx1 -> Tx2 -> Tx3 -> ....` may be called a **chain**. And in the considered case it is called **AccountChain** to emphasize that it is _the chain_ of a single account of transactions.
+A sequence of _transactions_ `0:138452c9933b9697986584a3e1db25ab209e9d731e4c6e0d1b2676fa31b84cf5 -> EQAThFLJkzuWl5hlhKPh2yWrIJ6dcx5Mbg0bJnb6MbhM9Tpa -> UQAThFLJkzuWl5hlhKPh2yWrIJ6dcx5Mbg0bJnb6MbhM9Wef -> ....` may be called a **chain**. And in the considered case it is called **AccountChain** to emphasize that it is _the chain_ of a single account of transactions.
 
 Now, since nodes that process transactions need from time to time to coordinate the state of the smart contract (to reach a _consensus_ about the state) those _transactions_ are batched:
 `[Tx1 -> Tx2] -> [Tx3 -> Tx4 -> Tx5] -> [] -> [Tx6]`.
