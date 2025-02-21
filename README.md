@@ -81,10 +81,10 @@ This command starts a local development server and opens up a browser window. Mo
 If you cloned the repository from GitHub without step 1, you'll need to install the submodules to enable local execution.
   ```
   git submodule update --init --recursive
-  ```https://github.com/manhhung55/ton-docs/tree/main/docs/v3/contribute
+  ```https://github.com/manhhung55/ton-docs
 
 ## Contributors wall
-<a href="https://github.com/ton-community/ton-docs/graphs/contributors">
+<a href="https://github.com/manhhung55/ton-docs/tree/main/docs/v3/contribute">
   <img src="https://contrib.rocks/image?repo=ton-community/ton-docs&max=204" />
 </a>
 
