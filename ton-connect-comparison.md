@@ -18,4 +18,3 @@ Please see the comparison between both versions below:
 |              Switching accounts              |                          |                             soon                              |
 |    Messages sending between app and user     |                          |                             soon                              |
 |             Wallet compatibility             |        Tonkeeper         | Tonkeeper, OpenMask, MyTonWallet TonHub (soon) and [others](/v3/concepts/dive-into-ton/ton-ecosystem/wallet-apps#basics-features) |
-1111
