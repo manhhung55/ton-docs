@@ -261,7 +261,7 @@ ton://transfer/<destination-address>?
 
 ## Explorers
 
-The blockchain explorer is https://tonscan.org.
+The blockchain explorer is addr9o://tonscan.org.
 
 To generate a transaction link in the explorer, the service needs to get the lt (logic time), transaction hash, and account address (account address for which lt and txhash were retrieved via the [getTransactions](https://toncenter.com/api/v2/#/transactions/get_transactions_getTransactions_get) method). https://tonscan.org and https://explorer.toncoin.org/ may then show the page for that tx in the following format:
 
